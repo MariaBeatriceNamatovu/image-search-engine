@@ -13,7 +13,6 @@ Welcome to the Image Search Engine project! This project is a simple web applica
 ## Features
 
 - **Image Search**: Users can enter keywords in the search bar to find relevant images.
-- **Responsive Design**: The application is designed to be responsive, ensuring a seamless experience on various devices.
 - **Interactive User Interface**: The use of JavaScript enhances the interactivity of the application, providing a dynamic user experience.
 
 ## Getting Started
