@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #39297b;
+    color: white;
+}
+
+#logo{
+    height: 65px;
+    width: 65px;
+    border-radius: 40px;
+    text-align: center;
+    margin: 100px auto 10px;
+    display: flex;
+    padding-right: 2px;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px auto 50px;
+    font-weight: 600px;
+}
+#search-form {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    height: 80px;
+    background: #434989;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+#search-box {
+    flex: 1;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    padding: 0 30px;
+    
+}
+
+#search-form button {
+    padding: 0 40px;
+    height: 100%;
+    border-radius: 0 8px 8px 0;
+    border: 0;
+    outline: 0;
+    background: #ff3929;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: white;
+    font-size: 18px;
+    opacity: 0.5;
+}
+
+
+#show-more-button {
+    background: #ff3929;
+    color: white;
+    border: 0;
+    outline: 0;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin: 10px auto 100px;
+    display: none;
+    align-items: center;
+    cursor: pointer;
+}
+
+#search-result {
+    width: 80%;
+    display: grid;
+    margin: 100px auto 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+
+}
+
+#search-result img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.result-box {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+    flex: 1;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    background: #434980;
+    color: white;
+    font-size: 18px;
+    padding: 0 30px;
+}
+
+.result-box ul {
+    border-top: 1px solid #fff;
+    padding: 15px 10px;
+}
+.result-box li {
+    list-style: none;
+    border-radius: 3px;
+    padding: 10px 10px;
+    cursor: pointer;
+
+}
+
+.result-box li:hover{
+    background-color: grey;
+}
+
+.result-box{
+    max-height: 300px;
+    overflow-y: scroll;
+}
